@@ -1,4 +1,4 @@
-const Filament = require('../models/filament');
+const Filament = require('../models/Filament');
 const Model3D = require('../models/model3d');
 const express = require('express');
 const { authMiddleware } = require('../middleware/auth');
