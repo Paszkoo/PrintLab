@@ -1,0 +1,40 @@
+/* src/index.css */
+:root {
+  --primary-color: #2563eb;
+  --secondary-color: #1e40af;
+  --success-color: #10b981;
+  --warning-color: #f59e0b;
+  --error-color: #ef4444;
+  --text-light: #f3f3f3;
+  --text-primary: #d3c5c5;
+  --text-btn-color: #e4e4e4;
+  --text-secondary: #6b7280;
+  --text-third: #3f3f3f;
+  --bg-primary: #313131;
+  --bg-secondary: rgb(34, 34, 34);
+  --bg-third: rgb(107, 107, 107);
+  --border-color: #141414;
+  --hover-bg: #6b7280;
+
+  --cancel: rgb(206, 41, 41);
+  --cancel-hover: rgb(212, 18, 18);
+  --text-size-header: 1.8rem;
+  --text-size-title: 1.6rem;
+  --text-size-label: 1.3rem;
+  --text-size-p: 1.2rem;
+  --text-size-pp: 1.0rem;
+  --tag-size: 1.0rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  line-height: 1.6;
+}

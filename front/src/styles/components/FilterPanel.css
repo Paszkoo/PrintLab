@@ -1,0 +1,76 @@
+/* src/components/FilterPanel.css */
+.filter-panel {
+  width: 300px;
+  background: var(--bg-primary);
+  border-radius: 10px;
+  padding: 20px;
+  height: fit-content;
+  border: 1px solid var(--border-color);
+  position: fixed;
+  top: 100px;
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter-header h3 {
+  color: var(--text-light);
+  font-size: var(--text-size-title);
+}
+
+.clear-filters-btn {
+  background: none;
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: var(--text-size-pp);
+  transition: all 0.2s ease;
+}
+
+.clear-filters-btn:hover {
+  background: var(--hover-bg);
+  color: var(--text-primary);
+}
+
+.filter-group {
+  margin-bottom: 15px;
+}
+
+.filter-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--text-primary);
+  font-weight: 500;
+  font-size: var(--text-size-label);
+}
+
+.filter-group select {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  background: var(--bg-third);
+  color: var(--text-primary);
+  font-size: var(--text-size-p);
+  cursor: pointer;
+}
+
+.filter-group select:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+@media (max-width: 768px) {
+  
+  .filter-panel {
+    width: 100%;
+    position: static;
+  }
+}

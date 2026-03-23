@@ -1,0 +1,11 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* Upewnij się, że App nie blokuje sticky positioning */
+  overflow-x: hidden;
+}
+
+
+/* Responsywność */

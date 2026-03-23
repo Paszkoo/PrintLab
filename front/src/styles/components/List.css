@@ -1,0 +1,39 @@
+.back-btn,
+.add-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.back-btn {
+  background: var(--bg-secondary);
+  color: var(--text-white);
+  border: 1px solid var(--border-color);
+}
+
+.add-btn {
+  background: var(--success-color);
+  color: var(--text-third);
+}
+
+.back-btn:hover {
+  background: var(--hover-bg);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  /* USUNIĘTO transform: translateY(-1px) */
+}
+
+.add-btn:hover {
+  background: #059669;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3);
+  /* USUNIĘTO transform: translateY(-1px) */
+}
+.loading {
+  text-align: center;
+  padding: 40px;
+  color: var(--text-secondary);
+  font-size: var(--text-size-title);
+}

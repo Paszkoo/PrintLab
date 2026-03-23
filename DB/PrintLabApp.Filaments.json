@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "68f10b4845601c90ec2d8cf3"
+  },
+  "type": "PLA",
+  "prod": "BambuLab",
+  "colors": [
+    "white",
+    "black",
+    "marble white",
+    "green"
+  ],
+  "priceForKg": 109,
+  "createdAt": {
+    "$date": "2025-10-16T15:12:08.189Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-16T17:06:26.839Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f1265a45601c90ec2d8d40"
+  },
+  "type": "PLA EcoLine",
+  "prod": "PrintMe",
+  "colors": [
+    "grey"
+  ],
+  "priceForKg": 79,
+  "createdAt": {
+    "$date": "2025-10-16T17:07:38.646Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-16T17:07:38.646Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f126a745601c90ec2d8d43"
+  },
+  "type": "ASA",
+  "prod": "BambuLab",
+  "colors": [
+    "white"
+  ],
+  "priceForKg": 149.9,
+  "createdAt": {
+    "$date": "2025-10-16T17:08:55.964Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-16T17:08:55.964Z"
+  }
+}]

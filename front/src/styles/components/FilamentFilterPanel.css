@@ -1,0 +1,102 @@
+/* FilamentFilterPanel.css */
+.filter-panel {
+  background: var(--bg-primary);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 20px;
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter-header h2 {
+  margin: 0;
+  font-size: 1.4em;
+  color: var(--text-primary);
+}
+
+.reset-btn {
+  background: var(--bg-third);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background 0.2s;
+}
+
+.reset-btn:hover {
+  background: #e0e0e0;
+}
+
+.filter-section {
+  margin-bottom: 24px;
+}
+
+.filter-section h3 {
+  margin: 0 0 12px 0;
+  font-size: 1em;
+  color: var(--text-primary);
+}
+
+.filter-select,
+.price-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.95em;
+  transition: border-color 0.2s;
+  background: var(--bg-third);
+  color: var(--text-primary)
+}
+
+.filter-select:focus,
+.price-input:focus {
+  outline: none;
+  border-color: #1976d2;
+}
+
+.price-range {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.price-input {
+  width: auto;
+  flex: 1;
+}
+
+.price-separator {
+  color: #999;
+}
+
+.price-unit {
+  color: #666;
+  font-size: 0.9em;
+  white-space: nowrap;
+}
+
+.sort-order {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+
+
+.sort-order label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}

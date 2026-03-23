@@ -1,0 +1,1251 @@
+[{
+  "_id": {
+    "$oid": "68f14dbb2abaa8e61c7eb42e"
+  },
+  "name": "Xbox controller stand",
+  "category": "gracze",
+  "printTimeHours": 0,
+  "printTimeMinutes": 42,
+  "weightGrams": 45,
+  "filamentVariants": [
+    {
+      "filamentType": "PLA",
+      "filamentProd": "BambuLab",
+      "colorVariants": [
+        {
+          "color": "white",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f150a72abaa8e61c7eb4fe"
+          }
+        },
+        {
+          "color": "black",
+          "quantity": 0,
+          "_id": {
+            "$oid": "68f150a72abaa8e61c7eb4ff"
+          }
+        },
+        {
+          "color": "green",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f150a72abaa8e61c7eb500"
+          }
+        },
+        {
+          "color": "marble white",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f150a72abaa8e61c7eb501"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68f150a72abaa8e61c7eb4fd"
+      }
+    },
+    {
+      "filamentType": "PLA EcoLine",
+      "filamentProd": "PrintMe",
+      "colorVariants": [
+        {
+          "color": "grey",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f150a72abaa8e61c7eb503"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68f150a72abaa8e61c7eb502"
+      }
+    }
+  ],
+  "infill": {
+    "infillRate": 4,
+    "infillType": "trójkąty",
+    "vaseWallsCount": 1,
+    "vaseBaseLayersCount": 3
+  },
+  "size": {
+    "sizeCorrectionCentimeters": 0
+  },
+  "supports": {
+    "enable": false,
+    "angle": 0,
+    "type": "normal"
+  },
+  "printMode": {
+    "vaseMode": false,
+    "fuzzyMode": true
+  },
+  "createdAt": {
+    "$date": "2025-10-16T19:55:39.161Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-16T20:08:07.223Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f154882abaa8e61c7eb520"
+  },
+  "name": "DualShock4 Stand",
+  "category": "gracze",
+  "printTimeHours": 0,
+  "printTimeMinutes": 40,
+  "weightGrams": 11,
+  "filamentVariants": [
+    {
+      "filamentType": "PLA",
+      "filamentProd": "BambuLab",
+      "colorVariants": [
+        {
+          "color": "white",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f16849f3506c16abcd8316"
+          }
+        },
+        {
+          "color": "black",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f16849f3506c16abcd8317"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68f16849f3506c16abcd8315"
+      }
+    },
+    {
+      "filamentType": "PLA EcoLine",
+      "filamentProd": "PrintMe",
+      "colorVariants": [
+        {
+          "color": "grey",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f16849f3506c16abcd8319"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68f16849f3506c16abcd8318"
+      }
+    }
+  ],
+  "infill": {
+    "infillRate": 10,
+    "infillType": "siatka",
+    "vaseWallsCount": 1,
+    "vaseBaseLayersCount": 3
+  },
+  "size": {
+    "sizeCorrectionCentimeters": 0
+  },
+  "supports": {
+    "enable": true,
+    "angle": 30,
+    "type": "tree"
+  },
+  "printMode": {
+    "vaseMode": false,
+    "fuzzyMode": false
+  },
+  "createdAt": {
+    "$date": "2025-10-16T20:24:40.346Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-16T21:48:57.377Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f154b72abaa8e61c7eb534"
+  },
+  "name": "DualSense Stand",
+  "category": "gracze",
+  "printTimeHours": 0,
+  "printTimeMinutes": 48,
+  "weightGrams": 13,
+  "filamentVariants": [
+    {
+      "filamentType": "PLA",
+      "filamentProd": "BambuLab",
+      "colorVariants": [
+        {
+          "color": "white",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f154b72abaa8e61c7eb536"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68f154b72abaa8e61c7eb535"
+      }
+    },
+    {
+      "filamentType": "PLA EcoLine",
+      "filamentProd": "PrintMe",
+      "colorVariants": [
+        {
+          "color": "grey",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f154b72abaa8e61c7eb538"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68f154b72abaa8e61c7eb537"
+      }
+    }
+  ],
+  "infill": {
+    "infillRate": 10,
+    "infillType": "siatka",
+    "vaseWallsCount": 1,
+    "vaseBaseLayersCount": 3
+  },
+  "size": {
+    "sizeCorrectionCentimeters": 0
+  },
+  "supports": {
+    "enable": true,
+    "angle": 30,
+    "type": "tree"
+  },
+  "printMode": {
+    "fuzzyMode": false,
+    "vaseMode": false
+  },
+  "createdAt": {
+    "$date": "2025-10-16T20:25:27.574Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-16T20:25:27.574Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f155142abaa8e61c7eb54b"
+  },
+  "name": "4x AAA case",
+  "category": "narzędzia",
+  "printTimeHours": 0,
+  "printTimeMinutes": 44,
+  "weightGrams": 18,
+  "filamentVariants": [
+    {
+      "filamentType": "PLA",
+      "filamentProd": "BambuLab",
+      "colorVariants": [
+        {
+          "color": "black",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f155142abaa8e61c7eb54d"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68f155142abaa8e61c7eb54c"
+      }
+    },
+    {
+      "filamentType": "PLA EcoLine",
+      "filamentProd": "PrintMe",
+      "colorVariants": [
+        {
+          "color": "grey",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f155142abaa8e61c7eb54f"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68f155142abaa8e61c7eb54e"
+      }
+    }
+  ],
+  "infill": {
+    "infillRate": 9,
+    "infillType": "siatka",
+    "vaseWallsCount": 1,
+    "vaseBaseLayersCount": 3
+  },
+  "size": {
+    "sizeCorrectionCentimeters": 0
+  },
+  "supports": {
+    "enable": false,
+    "angle": 30,
+    "type": "normal"
+  },
+  "printMode": {
+    "fuzzyMode": false,
+    "vaseMode": false
+  },
+  "createdAt": {
+    "$date": "2025-10-16T20:27:00.915Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-16T20:27:00.915Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f155572abaa8e61c7eb566"
+  },
+  "name": "4x AA battery case",
+  "category": "narzędzia",
+  "printTimeHours": 0,
+  "printTimeMinutes": 58,
+  "weightGrams": 27,
+  "filamentVariants": [
+    {
+      "filamentType": "PLA",
+      "filamentProd": "BambuLab",
+      "colorVariants": [
+        {
+          "color": "black",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f17cbf9c70c9cd71c37432"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68f17cbf9c70c9cd71c37431"
+      }
+    },
+    {
+      "filamentType": "PLA EcoLine",
+      "filamentProd": "PrintMe",
+      "colorVariants": [
+        {
+          "color": "grey",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f17cbf9c70c9cd71c37434"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68f17cbf9c70c9cd71c37433"
+      }
+    }
+  ],
+  "infill": {
+    "infillRate": 9,
+    "infillType": "siatka",
+    "vaseWallsCount": 1,
+    "vaseBaseLayersCount": 3
+  },
+  "size": {
+    "sizeCorrectionCentimeters": 0
+  },
+  "supports": {
+    "enable": false,
+    "angle": 30,
+    "type": "normal"
+  },
+  "printMode": {
+    "vaseMode": false,
+    "fuzzyMode": false
+  },
+  "createdAt": {
+    "$date": "2025-10-16T20:28:07.585Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-16T23:16:15.275Z"
+  },
+  "margin": 20,
+  "packageSize": "medium"
+},
+{
+  "_id": {
+    "$oid": "68f1557d2abaa8e61c7eb585"
+  },
+  "name": "Uchwyt do książki",
+  "category": "narzędzia",
+  "printTimeHours": 0,
+  "printTimeMinutes": 15,
+  "weightGrams": 5,
+  "filamentVariants": [
+    {
+      "filamentType": "PLA",
+      "filamentProd": "BambuLab",
+      "colorVariants": [
+        {
+          "color": "white",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f1557d2abaa8e61c7eb587"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68f1557d2abaa8e61c7eb586"
+      }
+    }
+  ],
+  "infill": {
+    "infillRate": 10,
+    "infillType": "siatka",
+    "vaseWallsCount": 1,
+    "vaseBaseLayersCount": 3
+  },
+  "size": {
+    "sizeCorrectionCentimeters": 0
+  },
+  "supports": {
+    "enable": false,
+    "angle": 30,
+    "type": "normal"
+  },
+  "printMode": {
+    "fuzzyMode": false,
+    "vaseMode": false
+  },
+  "createdAt": {
+    "$date": "2025-10-16T20:28:45.019Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-16T20:28:45.019Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f158332abaa8e61c7eb5a4"
+  },
+  "name": "Osłonka diament mini",
+  "category": "Dom",
+  "printTimeHours": 2,
+  "printTimeMinutes": 44,
+  "weightGrams": 106,
+  "filamentVariants": [
+    {
+      "filamentType": "PLA",
+      "filamentProd": "BambuLab",
+      "colorVariants": [
+        {
+          "color": "marble white",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f158332abaa8e61c7eb5a6"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68f158332abaa8e61c7eb5a5"
+      }
+    }
+  ],
+  "infill": {
+    "infillRate": 10,
+    "infillType": "siatka",
+    "vaseWallsCount": 3,
+    "vaseBaseLayersCount": 3
+  },
+  "size": {
+    "sizeCorrectionCentimeters": 1.5
+  },
+  "supports": {
+    "enable": false,
+    "angle": 30,
+    "type": "normal"
+  },
+  "printMode": {
+    "fuzzyMode": false,
+    "vaseMode": true
+  },
+  "createdAt": {
+    "$date": "2025-10-16T20:40:19.527Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-16T20:40:19.527Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f1781a9c70c9cd71c3727c"
+  },
+  "name": "Doniczka diamond BIG",
+  "category": "Dom",
+  "printTimeHours": 5,
+  "printTimeMinutes": 15,
+  "weightGrams": 232,
+  "margin": 0,
+  "packageSize": "medium",
+  "filamentVariants": [
+    {
+      "filamentType": "PLA",
+      "filamentProd": "BambuLab",
+      "colorVariants": [
+        {
+          "color": "white",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f1781a9c70c9cd71c3727e"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68f1781a9c70c9cd71c3727d"
+      }
+    }
+  ],
+  "infill": {
+    "infillRate": 10,
+    "infillType": "siatka",
+    "vaseWallsCount": 3,
+    "vaseBaseLayersCount": 3
+  },
+  "size": {
+    "sizeCorrectionCentimeters": 1.5
+  },
+  "supports": {
+    "enable": false,
+    "angle": 30,
+    "type": "normal"
+  },
+  "printMode": {
+    "fuzzyMode": false,
+    "vaseMode": true
+  },
+  "createdAt": {
+    "$date": "2025-10-16T22:56:26.078Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-16T22:56:26.078Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f180609c70c9cd71c3752b"
+  },
+  "name": "Doniczka origami MINI",
+  "category": "Dom",
+  "printTimeHours": 1,
+  "printTimeMinutes": 55,
+  "weightGrams": 72,
+  "margin": 20,
+  "packageSize": "medium",
+  "filamentVariants": [
+    {
+      "filamentType": "PLA",
+      "filamentProd": "BambuLab",
+      "colorVariants": [
+        {
+          "color": "marble white",
+          "quantity": 2,
+          "_id": {
+            "$oid": "68f180609c70c9cd71c3752d"
+          }
+        },
+        {
+          "color": "white",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f180609c70c9cd71c3752e"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68f180609c70c9cd71c3752c"
+      }
+    }
+  ],
+  "infill": {
+    "infillRate": 10,
+    "infillType": "siatka",
+    "vaseWallsCount": 2,
+    "vaseBaseLayersCount": 3
+  },
+  "size": {
+    "sizeCorrectionCentimeters": 2
+  },
+  "supports": {
+    "enable": false,
+    "angle": 30,
+    "type": "normal"
+  },
+  "printMode": {
+    "fuzzyMode": false,
+    "vaseMode": true
+  },
+  "createdAt": {
+    "$date": "2025-10-16T23:31:44.544Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-16T23:31:44.544Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f180ca9c70c9cd71c37564"
+  },
+  "name": "Doniczka origami BIG",
+  "category": "Dom",
+  "printTimeHours": 3,
+  "printTimeMinutes": 57,
+  "weightGrams": 215,
+  "margin": 20,
+  "packageSize": "medium",
+  "filamentVariants": [
+    {
+      "filamentType": "PLA",
+      "filamentProd": "BambuLab",
+      "colorVariants": [
+        {
+          "color": "white",
+          "quantity": 2,
+          "_id": {
+            "$oid": "68f1813b9c70c9cd71c375a1"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68f1813b9c70c9cd71c375a0"
+      }
+    }
+  ],
+  "infill": {
+    "infillRate": 10,
+    "infillType": "siatka",
+    "vaseWallsCount": 3,
+    "vaseBaseLayersCount": 3
+  },
+  "size": {
+    "sizeCorrectionCentimeters": 2
+  },
+  "supports": {
+    "enable": false,
+    "angle": 30,
+    "type": "normal"
+  },
+  "printMode": {
+    "vaseMode": true,
+    "fuzzyMode": false
+  },
+  "createdAt": {
+    "$date": "2025-10-16T23:33:30.845Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-16T23:35:23.394Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f181759c70c9cd71c375d1"
+  },
+  "name": "Doniczka wave mini",
+  "category": "Dom",
+  "printTimeHours": 2,
+  "printTimeMinutes": 20,
+  "weightGrams": 80,
+  "margin": 20,
+  "packageSize": "medium",
+  "filamentVariants": [
+    {
+      "filamentType": "PLA",
+      "filamentProd": "BambuLab",
+      "colorVariants": [
+        {
+          "color": "marble white",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f181759c70c9cd71c375d3"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68f181759c70c9cd71c375d2"
+      }
+    }
+  ],
+  "infill": {
+    "infillRate": 10,
+    "infillType": "siatka",
+    "vaseWallsCount": 3,
+    "vaseBaseLayersCount": 3
+  },
+  "size": {
+    "sizeCorrectionCentimeters": 0
+  },
+  "supports": {
+    "enable": false,
+    "angle": 30,
+    "type": "normal"
+  },
+  "printMode": {
+    "fuzzyMode": false,
+    "vaseMode": true
+  },
+  "createdAt": {
+    "$date": "2025-10-16T23:36:21.092Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-16T23:36:21.092Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f181be9c70c9cd71c37605"
+  },
+  "name": "Doniczka gem MINI",
+  "category": "Dom",
+  "printTimeHours": 2,
+  "printTimeMinutes": 6,
+  "weightGrams": 80,
+  "margin": 20,
+  "packageSize": "medium",
+  "filamentVariants": [
+    {
+      "filamentType": "PLA",
+      "filamentProd": "BambuLab",
+      "colorVariants": [
+        {
+          "color": "marble white",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f181be9c70c9cd71c37607"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68f181be9c70c9cd71c37606"
+      }
+    }
+  ],
+  "infill": {
+    "infillRate": 10,
+    "infillType": "siatka",
+    "vaseWallsCount": 3,
+    "vaseBaseLayersCount": 3
+  },
+  "size": {
+    "sizeCorrectionCentimeters": 2.5
+  },
+  "supports": {
+    "enable": false,
+    "angle": 30,
+    "type": "normal"
+  },
+  "printMode": {
+    "fuzzyMode": false,
+    "vaseMode": true
+  },
+  "createdAt": {
+    "$date": "2025-10-16T23:37:34.781Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-16T23:37:34.781Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f182259c70c9cd71c3763d"
+  },
+  "name": "Doniczka gem BIG",
+  "category": "Dom",
+  "printTimeHours": 3,
+  "printTimeMinutes": 13,
+  "weightGrams": 170,
+  "margin": 20,
+  "packageSize": "medium",
+  "filamentVariants": [
+    {
+      "filamentType": "PLA",
+      "filamentProd": "BambuLab",
+      "colorVariants": [
+        {
+          "color": "white",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f182719c70c9cd71c376f4"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68f182719c70c9cd71c376f3"
+      }
+    }
+  ],
+  "infill": {
+    "infillRate": 10,
+    "infillType": "siatka",
+    "vaseWallsCount": 2,
+    "vaseBaseLayersCount": 3
+  },
+  "size": {
+    "sizeCorrectionCentimeters": 0
+  },
+  "supports": {
+    "enable": false,
+    "angle": 30,
+    "type": "normal"
+  },
+  "printMode": {
+    "vaseMode": true,
+    "fuzzyMode": false
+  },
+  "createdAt": {
+    "$date": "2025-10-16T23:39:17.700Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-16T23:40:33.594Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f182d99c70c9cd71c37730"
+  },
+  "name": "Doniczka crystal MINI",
+  "category": "Dom",
+  "printTimeHours": 1,
+  "printTimeMinutes": 50,
+  "weightGrams": 84,
+  "margin": 20,
+  "packageSize": "medium",
+  "filamentVariants": [
+    {
+      "filamentType": "PLA",
+      "filamentProd": "BambuLab",
+      "colorVariants": [
+        {
+          "color": "marble white",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f182d99c70c9cd71c37732"
+          }
+        },
+        {
+          "color": "white",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f182d99c70c9cd71c37733"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68f182d99c70c9cd71c37731"
+      }
+    }
+  ],
+  "infill": {
+    "infillRate": 10,
+    "infillType": "siatka",
+    "vaseWallsCount": 2,
+    "vaseBaseLayersCount": 3
+  },
+  "size": {
+    "sizeCorrectionCentimeters": 3.5
+  },
+  "supports": {
+    "enable": false,
+    "angle": 30,
+    "type": "normal"
+  },
+  "printMode": {
+    "fuzzyMode": false,
+    "vaseMode": true
+  },
+  "createdAt": {
+    "$date": "2025-10-16T23:42:17.171Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-16T23:42:17.171Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f183209c70c9cd71c37772"
+  },
+  "name": "Doniczka crystal BIG",
+  "category": "Dom",
+  "printTimeHours": 2,
+  "printTimeMinutes": 33,
+  "weightGrams": 124,
+  "margin": 20,
+  "packageSize": "medium",
+  "filamentVariants": [
+    {
+      "filamentType": "PLA",
+      "filamentProd": "BambuLab",
+      "colorVariants": [
+        {
+          "color": "white",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f183209c70c9cd71c37774"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68f183209c70c9cd71c37773"
+      }
+    }
+  ],
+  "infill": {
+    "infillRate": 10,
+    "infillType": "siatka",
+    "vaseWallsCount": 2,
+    "vaseBaseLayersCount": 3
+  },
+  "size": {
+    "sizeCorrectionCentimeters": 3.5
+  },
+  "supports": {
+    "enable": false,
+    "angle": 30,
+    "type": "normal"
+  },
+  "printMode": {
+    "fuzzyMode": false,
+    "vaseMode": true
+  },
+  "createdAt": {
+    "$date": "2025-10-16T23:43:28.183Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-16T23:43:28.183Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f183599c70c9cd71c377b7"
+  },
+  "name": "Doniczka antysfera BIG",
+  "category": "Dom",
+  "printTimeHours": 3,
+  "printTimeMinutes": 13,
+  "weightGrams": 158,
+  "margin": 20,
+  "packageSize": "medium",
+  "filamentVariants": [
+    {
+      "filamentType": "PLA",
+      "filamentProd": "BambuLab",
+      "colorVariants": [
+        {
+          "color": "white",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f183599c70c9cd71c377b9"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68f183599c70c9cd71c377b8"
+      }
+    }
+  ],
+  "infill": {
+    "infillRate": 10,
+    "infillType": "siatka",
+    "vaseWallsCount": 2,
+    "vaseBaseLayersCount": 3
+  },
+  "size": {
+    "sizeCorrectionCentimeters": 3.5
+  },
+  "supports": {
+    "enable": false,
+    "angle": 30,
+    "type": "normal"
+  },
+  "printMode": {
+    "fuzzyMode": false,
+    "vaseMode": true
+  },
+  "createdAt": {
+    "$date": "2025-10-16T23:44:25.711Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-16T23:44:25.711Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f183b29c70c9cd71c37800"
+  },
+  "name": "Doniczka antysfera MINI",
+  "category": "Dom",
+  "printTimeHours": 1,
+  "printTimeMinutes": 48,
+  "weightGrams": 84,
+  "margin": 20,
+  "packageSize": "medium",
+  "filamentVariants": [
+    {
+      "filamentType": "PLA",
+      "filamentProd": "BambuLab",
+      "colorVariants": [
+        {
+          "color": "marble white",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f183b29c70c9cd71c37802"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68f183b29c70c9cd71c37801"
+      }
+    }
+  ],
+  "infill": {
+    "infillRate": 10,
+    "infillType": "siatka",
+    "vaseWallsCount": 2,
+    "vaseBaseLayersCount": 3
+  },
+  "size": {
+    "sizeCorrectionCentimeters": 3.5
+  },
+  "supports": {
+    "enable": false,
+    "angle": 30,
+    "type": "normal"
+  },
+  "printMode": {
+    "fuzzyMode": false,
+    "vaseMode": true
+  },
+  "createdAt": {
+    "$date": "2025-10-16T23:45:54.512Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-16T23:45:54.512Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f183dc9c70c9cd71c3784d"
+  },
+  "name": "Doniczka polygon MINI",
+  "category": "Dom",
+  "printTimeHours": 1,
+  "printTimeMinutes": 30,
+  "weightGrams": 64,
+  "margin": 20,
+  "packageSize": "medium",
+  "filamentVariants": [
+    {
+      "filamentType": "PLA",
+      "filamentProd": "BambuLab",
+      "colorVariants": [
+        {
+          "color": "marble white",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f184079c70c9cd71c3789f"
+          }
+        },
+        {
+          "color": "white",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f184079c70c9cd71c378a0"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68f184079c70c9cd71c3789e"
+      }
+    }
+  ],
+  "infill": {
+    "infillRate": 10,
+    "infillType": "siatka",
+    "vaseWallsCount": 2,
+    "vaseBaseLayersCount": 3
+  },
+  "size": {
+    "sizeCorrectionCentimeters": 1
+  },
+  "supports": {
+    "enable": false,
+    "angle": 30,
+    "type": "normal"
+  },
+  "printMode": {
+    "vaseMode": true,
+    "fuzzyMode": false
+  },
+  "createdAt": {
+    "$date": "2025-10-16T23:46:36.386Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-16T23:47:19.300Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f184339c70c9cd71c378f3"
+  },
+  "name": "Doniczka polygon BIG",
+  "category": "Dom",
+  "printTimeHours": 2,
+  "printTimeMinutes": 50,
+  "weightGrams": 144,
+  "margin": 20,
+  "packageSize": "medium",
+  "filamentVariants": [
+    {
+      "filamentType": "PLA",
+      "filamentProd": "BambuLab",
+      "colorVariants": [
+        {
+          "color": "white",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f184339c70c9cd71c378f5"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68f184339c70c9cd71c378f4"
+      }
+    }
+  ],
+  "infill": {
+    "infillRate": 10,
+    "infillType": "siatka",
+    "vaseWallsCount": 2,
+    "vaseBaseLayersCount": 3
+  },
+  "size": {
+    "sizeCorrectionCentimeters": 1
+  },
+  "supports": {
+    "enable": false,
+    "angle": 30,
+    "type": "normal"
+  },
+  "printMode": {
+    "fuzzyMode": false,
+    "vaseMode": true
+  },
+  "createdAt": {
+    "$date": "2025-10-16T23:48:03.649Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-16T23:48:03.650Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f18d78b936cdb50e9a168a"
+  },
+  "name": "Doniczka Bambu MINI",
+  "category": "Dom",
+  "printTimeHours": 2,
+  "printTimeMinutes": 5,
+  "weightGrams": 127,
+  "margin": 100,
+  "packageSize": "medium",
+  "filamentVariants": [
+    {
+      "filamentType": "PLA",
+      "filamentProd": "BambuLab",
+      "colorVariants": [
+        {
+          "color": "marble white",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f18d78b936cdb50e9a168c"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68f18d78b936cdb50e9a168b"
+      }
+    }
+  ],
+  "infill": {
+    "infillRate": 10,
+    "infillType": "siatka",
+    "vaseWallsCount": 3,
+    "vaseBaseLayersCount": 3
+  },
+  "size": {
+    "sizeCorrectionCentimeters": 2.5
+  },
+  "supports": {
+    "enable": false,
+    "angle": 30,
+    "type": "normal"
+  },
+  "printMode": {
+    "fuzzyMode": false,
+    "vaseMode": true
+  },
+  "createdAt": {
+    "$date": "2025-10-17T00:27:36.170Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-17T00:27:36.170Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f18db6b936cdb50e9a16f0"
+  },
+  "name": "Doniczka Bambu BIG",
+  "category": "Dom",
+  "printTimeHours": 4,
+  "printTimeMinutes": 0,
+  "weightGrams": 267,
+  "margin": 80,
+  "packageSize": "medium",
+  "filamentVariants": [
+    {
+      "filamentType": "PLA",
+      "filamentProd": "BambuLab",
+      "colorVariants": [
+        {
+          "color": "white",
+          "quantity": 1,
+          "_id": {
+            "$oid": "68f18df8b936cdb50e9a175b"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68f18df8b936cdb50e9a175a"
+      }
+    }
+  ],
+  "infill": {
+    "infillRate": 10,
+    "infillType": "siatka",
+    "vaseWallsCount": 3,
+    "vaseBaseLayersCount": 3
+  },
+  "size": {
+    "sizeCorrectionCentimeters": 2.5
+  },
+  "supports": {
+    "enable": false,
+    "angle": 30,
+    "type": "normal"
+  },
+  "printMode": {
+    "vaseMode": true,
+    "fuzzyMode": false
+  },
+  "createdAt": {
+    "$date": "2025-10-17T00:28:38.023Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-17T00:29:44.392Z"
+  }
+}]

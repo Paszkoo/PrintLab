@@ -1,0 +1,267 @@
+/* PrintsList.css - Naprawione style */
+
+.prints-list {
+  min-height: 100vh;
+  background-color: var(--bg-secondary);
+  /* Usunięto position: relative - może zakłócać sticky positioning */
+  /* Dodaj overflow dla prawidłowego scrollowania */
+  overflow-x: hidden;
+}
+
+.prints-header {
+  background: var(--bg-primary);
+  border-bottom: 1px solid var(--border-color);
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  /* Dodaj właściwości dla lepszego sticky behavior */
+  will-change: transform;
+  /* Wymuś nowy kontekst stacking */
+  transform: translateZ(0);
+  /* Dodatkowe właściwości dla sticky */
+  -webkit-position: sticky;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.header-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.settings-btn {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s;
+}
+
+.settings-btn:hover {
+  background: #5a6268;
+}
+
+/* Pricing info styles */
+.pricing-info {
+  top: 860px; /* Zwiększona odległość od góry - pod filtrami */
+  left: 20px; /* Margines od lewej strony */
+  width: 300px; /* Ta sama szerokość co filtry */
+  background: var(--bg-primary);
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+  padding: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 3; /* Zmniejszono z-index żeby nie konfliktować z sticky header */
+  max-height: calc(100vh - 420px); /* Maksymalna wysokość */
+  overflow-y: auto;
+}
+
+.pricing-info-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.pricing-info-header h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: var(--text-primary);
+}
+
+.settings-btn-small {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.settings-btn-small:hover {
+  background: #5a6268;
+}
+
+.pricing-info-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.pricing-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.pricing-label {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.pricing-value {
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.prints-container {
+  display: flex;
+  max-width: 1600px;
+  margin: 0 auto;
+  gap: 20px;
+  padding: 20px;
+  /* Upewnij się, że kontener nie blokuje sticky positioning */
+  overflow: visible;
+}
+
+.prints-sidebar {
+  width: 300px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.prints-content {
+  flex: 1;
+  min-width: 0; /* Zapobiegaj problemom z flexbox */
+}
+
+.prints-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background: var(--bg-primary);
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+}
+
+.prints-stats p {
+  color: var(--text-primary);
+  font-size: calc(var(--text-size-p) * 0.9);
+  margin: 0; /* Zapobiegaj niezamierzonym marginesom */
+}
+
+/* Elementy w pasku statystyk zachowują spójny układ i mają przedziałki */
+.prints-stats > * {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.prints-stats > * + * {
+  border-left: 1px solid var(--border-color);
+  padding-left: 12px;
+  margin-left: 0;
+}
+
+.prints-stats label {
+  color: var(--text-secondary);
+  font-size: calc(var(--text-size-p) * 0.85);
+}
+
+.prints-stats input {
+  width: 90px;
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 4px 6px;
+  font-size: calc(var(--text-size-p) * 0.85);
+}
+
+.inventory-block {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  gap: 0 !important;
+  border-left: none !important;
+  padding: 10px !important;
+  margin-top: 4px;
+  background: var(--bg-secondary);
+  border-radius: 6px;
+  border: 1px solid var(--border-color) !important;
+}
+
+.inventory-block--all {
+  background: color-mix(in srgb, var(--bg-secondary) 70%, var(--bg-primary) 30%);
+}
+
+.inventory-block h4 {
+  margin: 0 0 8px 0;
+  font-size: 1rem;
+  color: var(--text-primary);
+}
+
+.inventory-block p {
+  margin: 3px 0 !important;
+  font-size: 0.9em;
+}
+
+.inventory-block .inventory-total {
+  margin-top: 8px !important;
+  padding-top: 8px;
+  border-top: 1px solid var(--border-color);
+  font-size: 0.95rem !important;
+  font-weight: bold;
+  width: 100%;
+}
+
+.prints-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+/* Responsive bez konfliktów */
+@media (max-width: 768px) {
+  .prints-container {
+    flex-direction: column;
+  }
+  
+  .prints-sidebar {
+    width: 100%;
+    position: static;
+  }
+  
+  .pricing-info {
+    position: static;
+    width: 100%;
+    margin: 20px;
+    top: auto;
+    left: auto;
+    max-height: none;
+  }
+  
+  .prints-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .header-content {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}

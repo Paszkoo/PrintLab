@@ -1,0 +1,98 @@
+/* src/components/HomePage.css */
+.home-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #353535 0%, #2c8b2c 100%);
+  padding: 20px;
+}
+
+.home-container {
+  background: var(--bg-primary);
+  border-radius: 20px;
+  padding: 60px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+  max-width: 600px;
+  width: 100%;
+}
+
+.home-header h1 {
+  color: var(--text-light);
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.home-header p {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+}
+
+.home-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.home-button {
+  display: flex;
+  align-items: center;
+  padding: 25px 30px;
+  border: none;
+  border-radius: 15px;
+  background: var(--bg-secondary);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: left;
+  border: 2px solid transparent;
+}
+
+.home-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  border-color: var(--primary-color);
+}
+
+.prints-list-btn {
+  background: linear-gradient(135deg, #10b981, #059669);
+  color: white;
+}
+
+.exit-btn {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  color: white;
+}
+
+.button-icon {
+  font-size: 2rem;
+  margin-right: 20px;
+}
+
+.button-text h3 {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  color: var(--text-third);
+}
+
+.button-text p {
+  font-size: 0.9rem;
+  opacity: 0.9;
+  color: var(--text-third);
+}
+
+.home-footer {
+  margin-top: 40px;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .home-header h1 {
+    font-size: 2rem;
+  }
+  .home-container {
+    padding: 40px 30px;
+  }
+}

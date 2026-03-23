@@ -1,0 +1,90 @@
+/* FilamentsList.css */
+.filaments-list {
+  min-height: 100vh;
+  background: var(--bg-secondary);
+}
+
+.filaments-header {
+  background: var(--bg-primary);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content h1 {
+  margin: 0;
+  font-size: 1.8em;
+  color: #333;
+}
+
+.filaments-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 24px;
+}
+
+.filaments-content {
+  min-height: 500px;
+}
+
+.filaments-stats {
+  background: var(--bg-primary);
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filaments-stats p {
+  margin: 0;
+  color: var(--text-primary);
+  font-size: var(--text-size-p);
+  font-weight: 500;
+}
+
+.filaments-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+@media (max-width: 1024px) {
+  .filaments-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .filter-panel {
+    position: static;
+  }
+}
+
+@media (max-width: 768px) {
+  .filaments-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .header-content {
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}

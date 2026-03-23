@@ -1,0 +1,174 @@
+/* FilamentCard.css */
+.filament-card {
+  background: var(--bg-primary);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.filament-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.filament-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.filament-card-header h3 {
+  margin: 0;
+  font-size: 1.4em;
+  color: var(--text-primary);
+}
+
+.filament-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.edit-btn,
+.delete-btn {
+  background: none;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.edit-btn:hover {
+  background: #e3f2fd;
+}
+
+.delete-btn:hover {
+  background: #ffebee;
+}
+
+.filament-card-body {
+  margin-bottom: 16px;
+}
+
+.filament-info .info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.filament-info .info-row:last-child {
+  border-bottom: none;
+}
+
+.filament-info .label {
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.filament-info .value {
+  color: var(--text-secondary);
+}
+
+.filament-info .value.price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+.colors-row {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.colors-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.color-badge {
+  display: inline-block;
+  background: #e3f2fd;
+  color: #1976d2;
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 0.85em;
+  font-weight: 500;
+}
+
+.no-colors {
+  color: #999;
+  font-style: italic;
+}
+
+.filament-card-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.filament-card-footer small {
+  color: #999;
+  font-size: 0.85em;
+}
+
+.specs-card-section {
+  margin-top: 12px;
+  border-top: 1px solid #f0f0f0;
+  padding-top: 8px;
+}
+
+.specs-card-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: var(--text-secondary, #666);
+  padding: 4px 0;
+  transition: color 0.2s;
+}
+
+.specs-card-toggle:hover {
+  color: var(--text-primary, #333);
+}
+
+.specs-card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 16px;
+  margin-top: 8px;
+  padding: 10px;
+  background: var(--bg-secondary, #fafafa);
+  border-radius: 8px;
+}
+
+.spec-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 0;
+}
+
+.spec-label {
+  font-size: 0.82em;
+  color: var(--text-secondary, #888);
+  font-weight: 500;
+}
+
+.spec-value {
+  font-size: 0.82em;
+  color: var(--text-primary, #333);
+  font-weight: 600;
+}
+

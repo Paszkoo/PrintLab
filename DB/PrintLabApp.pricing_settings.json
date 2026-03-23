@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "68f15d62f3506c16abcd7ed8"
+  },
+  "shippingCost": 15,
+  "packagingCost": 4,
+  "electricityPricePerKwh": 1.09,
+  "marginPercent": 19,
+  "createdAt": {
+    "$date": "2025-10-16T21:02:26.669Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-17T00:12:55.856Z"
+  },
+  "shippingPrices": {
+    "small": 16.99,
+    "medium": 18.99,
+    "large": 20.01
+  }
+}]
